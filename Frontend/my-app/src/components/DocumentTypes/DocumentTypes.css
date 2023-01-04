@@ -1,0 +1,23 @@
+.types {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	background-color: #f2f6ff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.types .document,
+.types .upload {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: start;
+    width: 48%;
+}
+.types img {
+    margin-block-start: 31.7px;
+	margin-inline-end: 5px;
+}
+.types .multi-select {
+	width: 100%;
+}

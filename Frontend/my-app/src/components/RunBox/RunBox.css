@@ -1,0 +1,62 @@
+/*#region rework*/
+.run-box {
+	width: 100%;
+}
+/*#region controls  */
+.run-box .controls {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid rgb(235, 241, 248);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-color: #eaf0ff;
+}
+.run-box .controls .end {
+	display: flex;
+	align-items: center;
+}
+.run-box .controls .start,
+.run-box .controls .end {
+	padding-inline: 1rem;
+}
+.run-box .controls .end button:last-child {
+	margin-inline-start: 5px;
+}
+/*#endregion */
+
+/*#region search  */
+.run-box .search {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding-inline: 1rem;
+	border: 1px solid rgb(235, 241, 248);
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #f2f6ff;
+}
+.run-box .search .fetch,
+.run-box .search .delete {
+	display: flex;
+	border: 1px solid grey;
+	border-radius: 5px;
+	background-color: white;
+	margin-inline-start: 5px;
+}
+/*#endregion  */
+
+#textForm {
+	/* OTP Bar */
+
+	border: 2px solid rgb(235, 241, 248);
+	border-radius: 4px;
+	font-size: 12px;
+	color: gray;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 60px;
+	margin-left: 1%;
+	width: 98%;
+}
+/*#endregion  */

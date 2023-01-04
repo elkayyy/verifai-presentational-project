@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  backend:
+    build: ./Backend
+    volumes:
+      - ./Backend:/var/www/html
+    ports:
+      - 5000:5000
+  frontend:
+    build: ./Frontend/my-app2
+    volumes:
+      - ./Frontend/my-app2:/var/www/html
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
